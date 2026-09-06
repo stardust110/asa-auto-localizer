@@ -2,9 +2,9 @@
 
 面向 Windows 的《方舟：生存飞升》（ARK: Survival Ascended，简称 ASA）模组本地汉化工具。它把模组扫描、文本识别、术语匹配、AI 翻译、人工复核和补丁构建集中在一个中文界面中，适合希望自行制作与维护汉化补丁的玩家。
 
-[下载最新版](https://github.com/stardust110/asa-auto-localizer/releases/latest) · [查看 V1.1.0 更新说明](https://github.com/stardust110/asa-auto-localizer/releases/tag/v1.1.0) · [作者主页：-星星尘-](https://space.bilibili.com/629899723)
+[下载最新版](https://github.com/stardust110/asa-auto-localizer/releases/latest) · [查看 V1.1.1 更新说明](https://github.com/stardust110/asa-auto-localizer/releases/tag/v1.1.1) · [作者主页：-星星尘-](https://space.bilibili.com/629899723)
 
-> 当前发布：V1.1.0 简约版，Windows 便携版。无需安装 Python，完整解压后运行 `ASA模组自动汉化工具.exe`。
+> 当前发布：V1.1.1 简约版，Windows 便携版。无需安装 Python，完整解压后运行 `ASA模组自动汉化工具.exe`。
 
 ![批量自动汉化工作流](docs/images/workflow.png)
 
@@ -71,6 +71,7 @@
 - 配置和任务状态采用原子写入；异常退出后已保存内容不会自动清空。
 - 内置 GitHub Releases 更新检查，下载后进行 SHA256 校验。
 - 更新前备份将被替换的程序文件，失败时回滚，并始终跳过用户 `data` 目录。
+- 窄窗口会保持 1280px 最小内部画布并整体等比例缩放，避免按钮、文字和统计卡相互覆盖。
 
 ![关于、作者与软件更新](docs/images/about-and-updates.png)
 
